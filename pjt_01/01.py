@@ -28,23 +28,6 @@ for weekNum in range(50):
 
 
 
-
-# data handling
-    # boxoffice_prelist = data['boxOfficeResult']['weeklyBoxOfficeList']
-
-    # for i in range (10):
-    #     index_num = i + 10 * weekNum
-    #     boxoffice_list[index_num]['movieCd'] = boxoffice_prelist[i]['movieCd']
-    #     boxoffice_list[index_num]['movieNm'] = boxoffice_prelist[i]['movieNm']
-    #     boxoffice_list[index_num]['audiAcc'] = boxoffice_prelist[i]['audiAcc']
-
-    #     for k in r:
-    #         for j in range(len(boxoffice_list)):
-    #             if k['movieCd'] == boxoffice_list[j]['movieCd']:
-    #                 r.remove(k)
-
-    #     r.append(boxoffice_list)
-
     boxoffice_prelist = data['boxOfficeResult']['weeklyBoxOfficeList']
 
     for i in range (10):
